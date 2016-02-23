@@ -5,6 +5,14 @@
 # authors: fefrei
 
 
+register_css <<CSS
+.pseuco-box {
+  width: 690px;
+  height: 500px;
+}
+CSS
+
+
 Onebox = Onebox
 class Onebox::Engine::PseuCoOnebox
     include Onebox::Engine
@@ -27,7 +35,7 @@ class Onebox::Engine::PseuCoOnebox
 
     def to_html
         <<HTML
-        <iframe src="https://pseuco.com/#/edit/remote/#{id}"></iframe>
+        <iframe class="pseuco-box" src="https://pseuco.com/embed/#/#{id}"></iframe>
 HTML
     end
 end
