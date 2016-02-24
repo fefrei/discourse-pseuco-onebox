@@ -65,6 +65,10 @@ register_css <<CSS
     font-size: 12px;
 }
 
+.pseuco-header-button .clicks {
+    display: none;
+}
+
 .pseuco-frame {
     border: none;
     width: 100%;
