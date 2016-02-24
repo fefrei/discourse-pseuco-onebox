@@ -35,7 +35,7 @@ class Onebox::Engine::PseuCoOnebox
 
     def to_html
         <<HTML
-        <iframe class="pseuco-box" src="https://pseuco.com/embed/#/#{id}"></iframe>
+        <iframe class="pseuco-box" src="https://pseuco.com/embed#/edit/remote/#{id}"></iframe>
 HTML
     end
 end
