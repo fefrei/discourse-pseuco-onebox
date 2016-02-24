@@ -23,8 +23,8 @@ register_css <<CSS
 .pseuco-container {
     position: absolute;
     top: 33px;
-    bottom: 0px;
-    left: 0px;
+    bottom: 1px;
+    left: 1px;
     right: 1px;
 }
 
