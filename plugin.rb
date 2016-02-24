@@ -25,7 +25,7 @@ register_css <<CSS
     top: 33px;
     bottom: 0px;
     left: 0px;
-    right: 0px;
+    right: 1px;
 }
 
 .pseuco-header-bar {
@@ -57,16 +57,12 @@ register_css <<CSS
     bottom: 6px;
     right: 12px;
     background-color: #FFF;
-    padding: 2px 5px;
+    padding: 1px 5px;
     border: 1px solid #CCC;
     border-radius: 3px;
-    color: #000;
+    color: #000 !important;
     text-decoration: none;
     font-size: 12px;
-}
-
-.pseuco-button-arrow {
-    margin-top: 1px;
 }
 
 .pseuco-frame {
