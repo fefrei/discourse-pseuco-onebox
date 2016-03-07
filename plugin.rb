@@ -85,7 +85,7 @@ class Onebox::Engine::PseuCoOnebox
         0
     end
 
-    REGEX = /^https?:\/\/pseuco\.com\/\#\/edit\/remote\/([0-9a-z\-]+)$/
+    REGEX = /^https?:\/\/pseuco\.com\/\#(?:\/sku\/\w+\/\w+)?\/edit\/remote\/([0-9a-z\-]+)$/
 
     matches_regexp REGEX
 
