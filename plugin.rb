@@ -14,7 +14,6 @@ register_css <<CSS
 
 .pseuco-embed {
     position: relative;
-    width: 690px;
     height: 400px;
     border: 1px solid #ddd;
     border-radius: 3px;
