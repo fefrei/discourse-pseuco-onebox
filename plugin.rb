@@ -75,8 +75,8 @@ register_css <<CSS
 }
 CSS
 
+require "onebox"
 
-Onebox = Onebox
 class Onebox::Engine::PseuCoOnebox
     include Onebox::Engine
 
