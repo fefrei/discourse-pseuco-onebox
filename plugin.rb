@@ -1,6 +1,6 @@
 #!/bin/env ruby
 # encoding: utf-8
-# name: pseuCo.com Onebox
+# name: discourse-pseuco-onebox
 # version: 0.1
 # authors: fefrei
 
